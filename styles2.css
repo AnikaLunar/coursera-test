@@ -1,0 +1,365 @@
+<<<<<<< HEAD
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: Comic Sans MS, Times New Roman, serif;
+  text-align: center;
+  margin: 20px;
+  color: yellow;
+  text-shadow: 2px 2px 3px gray;
+}
+
+.daddy1 {
+  background-color: gray;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  width: 400px;
+  height: 250px;
+  position: relative;
+  float: left;
+  overflow: auto;
+  box-shadow: 2px 2px 3px 0px yellow;
+}
+
+.daddy2 {
+  background-color: gray;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  width: 400px;
+  height: 250px;
+  position: relative;
+  float: left;
+  overflow: auto;
+  box-shadow: 2px 2px 3px 0px yellow;
+}
+
+.daddy3 {
+  background-color: gray;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  width: 90%;
+  height: 250px;
+  position: relative;
+  float: left;
+  overflow: auto;
+  box-shadow: 2px 2px 3px 0px yellow;
+}
+
+.lorem {
+  color: white;
+  padding: 20px;
+  font-family: Comic Sans MS, Times New Roman, fantasy;
+  font-size: 14px;
+  text-align: center;
+}
+
+.yummy {
+  background-color: yellow;
+  width: 120px;
+  height: 40px;
+  border: 1px solid black;
+  font-family: Comic Sans MS, Times New Roman, fantasy;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  text-shadow: 2px 2px 3px gray;
+}
+
+.motto1 {
+  font-family: Comic Sans MS, Times New Roman, fantasy;
+  font-size: 15px;
+  padding: 10px 130px 10px 10px;
+  color: yellow;
+  text-shadow: 2px 2px 3px black;
+}
+.motto2 {
+  font-family: Comic Sans MS, Times New Roman, fantasy;
+  font-size: 15px;
+  padding: 10px 130px 10px 10px;
+  color: yellow;
+  text-shadow: 2px 2px 3px black;
+}
+
+.motto3 {
+  font-family: Comic Sans MS, Times New Roman, fantasy;
+  font-size: 15px;
+  padding: 10px 130px 10px 10px;
+  color: yellow;
+  text-shadow: 2px 2px 3px black;
+}
+
+#fish {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#milk {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#whiskas {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.row {
+  width:100%;
+}
+
+/********** Large devices only **********/
+
+@media (min-width: 992px) {
+  .daddy1 {
+    width: 30%;
+    position: relative;
+    float: left;
+    margin-left: 40px;
+  }
+  .daddy2 {
+    width: 30%;
+    float: left;
+    margin-right: 0;
+  }
+  .daddy3 {
+    width: 30%;
+    float: left;
+  }
+}
+
+/********** Medium devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .daddy1 {
+    width: 45%;
+    position: relative;
+    margin-left: 40px;
+  }
+  .daddy2 {
+    width:45%;
+    float: left;
+    margin-right: 10px;
+  }
+  .daddy3 {
+    width: 90%;
+    margin-left: 50px;
+  }
+}
+
+ /********** Small devices only **********/
+
+@media (max-width: 767px) {
+  .daddy1 {
+    width: 90%;
+    margin-left: 20px;
+  }
+  .daddy2 {
+    width:90%;
+  }
+
+  .daddy3 {
+    width: 90%;
+  }
+}
+
+=======
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: Comic Sans MS, Times New Roman, serif;
+  text-align: center;
+  margin: 20px;
+  color: yellow;
+  text-shadow: 2px 2px 3px gray;
+}
+
+.daddy1 {
+  background-color: gray;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  width: 400px;
+  height: 250px;
+  position: relative;
+  float: left;
+  overflow: auto;
+  box-shadow: 2px 2px 3px 0px yellow;
+}
+
+.daddy2 {
+  background-color: gray;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  width: 400px;
+  height: 250px;
+  position: relative;
+  float: left;
+  overflow: auto;
+  box-shadow: 2px 2px 3px 0px yellow;
+}
+
+.daddy3 {
+  background-color: gray;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  width: 90%;
+  height: 250px;
+  position: relative;
+  float: left;
+  overflow: auto;
+  box-shadow: 2px 2px 3px 0px yellow;
+}
+
+.lorem {
+  color: white;
+  padding: 20px;
+  font-family: Comic Sans MS, Times New Roman, fantasy;
+  font-size: 14px;
+  text-align: center;
+}
+
+.yummy {
+  background-color: yellow;
+  width: 120px;
+  height: 40px;
+  border: 1px solid black;
+  font-family: Comic Sans MS, Times New Roman, fantasy;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  text-shadow: 2px 2px 3px gray;
+}
+
+.motto1 {
+  font-family: Comic Sans MS, Times New Roman, fantasy;
+  font-size: 15px;
+  padding: 10px 130px 10px 10px;
+  color: yellow;
+  text-shadow: 2px 2px 3px black;
+}
+.motto2 {
+  font-family: Comic Sans MS, Times New Roman, fantasy;
+  font-size: 15px;
+  padding: 10px 130px 10px 10px;
+  color: yellow;
+  text-shadow: 2px 2px 3px black;
+}
+
+.motto3 {
+  font-family: Comic Sans MS, Times New Roman, fantasy;
+  font-size: 15px;
+  padding: 10px 130px 10px 10px;
+  color: yellow;
+  text-shadow: 2px 2px 3px black;
+}
+
+#fish {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#milk {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#whiskas {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.row {
+  width:100%;
+}
+
+/********** Large devices only **********/
+
+@media (min-width: 992px) {
+  .daddy1 {
+    width: 30%;
+    position: relative;
+    float: left;
+    margin-left: 40px;
+  }
+  .daddy2 {
+    width: 30%;
+    float: left;
+    margin-right: 0;
+  }
+  .daddy3 {
+    width: 30%;
+    float: left;
+  }
+}
+
+/********** Medium devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .daddy1 {
+    width: 45%;
+    position: relative;
+    margin-left: 40px;
+  }
+  .daddy2 {
+    width:45%;
+    float: left;
+    margin-right: 10px;
+  }
+  .daddy3 {
+    width: 90%;
+    margin-left: 50px;
+  }
+}
+
+ /********** Small devices only **********/
+
+@media (max-width: 767px) {
+  .daddy1 {
+    width: 90%;
+    margin-left: 20px;
+  }
+  .daddy2 {
+    width:90%;
+  }
+
+  .daddy3 {
+    width: 90%;
+  }
+}
+
+>>>>>>> 118894e47e55ba91d27ba053a5cfe2c44e8c4296
